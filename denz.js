@@ -81,7 +81,7 @@ rdaftar = "@denssptraa"
 rmenu = "@denssptraa"
 botinfo = "@denssptraa"
 limitt = 999999999
-memberLimit = 10
+memberLimit = 5
 ban = []
 premium = ["6285866295942@s.whatsapp.net","6285876210829@s.whatsapp.net"]
 
@@ -218,7 +218,7 @@ async function starts() {
 			
 
 			mess = {
-				wait: '*⏳ ᴡᴀɪᴛ ꜱᴇᴅᴀɴɢ ᴅɪ ᴩʀᴏꜱᴇꜱ...*',
+				wait: '*⏳ 𝙴𝚂𝙿𝙴𝚁𝙰 𝚂𝙸𝙽𝙶𝙰 𝚃𝚄 𝙼𝙰𝙸*',
 				success: '*ꜱᴜᴋꜱᴇꜱ...*',
 				error: {
 					stick: '*ɢᴀɢᴀʟ, ᴛᴇʀᴊᴀᴅɪ ᴋᴇꜱᴀʟᴀʜᴀɴ ꜱᴀᴀᴛ ᴍᴇɴɢᴋᴏɴᴠᴇʀꜱɪ ɢᴀᴍʙᴀʀ ᴋᴇ ꜱᴛɪᴄᴋᴇʀ*',
@@ -949,7 +949,7 @@ case 'igpost':
 				denz.sendMessage(from, teks, text, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg", "caption": "@denssptraa", "fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=", "fileLength": "28777", "height": 1080, "width": 1079, "mediaKey": "vXmRR7ZUeDWjXy5iQk17TrowBzuwRya0errAFnXxbGc=", "fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=", "directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69", "mediaKeyTimestamp": "1610993486", "jpegThumbnail": fs.readFileSync('dnsnew.jpg')} } }})
 				break
 				case 'googlesearch': 				
-				if (args.length < 1) return reply(`textnya mana om?`)
+				if (args.length < 1) return reply(`MAMAGUEBO TA FALTA DE AMOR?`)
 				ct = body.slice(14)
 				ll1 = ct.split("|")[0];
                 ll2 = ct.split("|")[1];
